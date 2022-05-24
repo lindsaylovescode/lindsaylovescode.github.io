@@ -633,7 +633,7 @@ header a{
     .features{
       display:flex;
       justify-content: center;
-      width:90%;
+      width:100%;
       margin:20px;
     }
       .features #contact-wrapper h2 {
