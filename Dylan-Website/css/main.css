@@ -1,0 +1,803 @@
+/***** BASE STYLES *****/
+
+html {
+  font-size: 30px;
+  display: flex;
+  width: 100%;
+}
+
+body {
+  font-family: 'Jura', cursive;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*header styles*/
+header {
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.header-content #logo {
+  display: flex;
+  align-content: center;
+}
+
+.header-content nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.header-content nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  padding-right: 1em;
+
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #a31aad;
+  font-family: 'Jura', cursive;
+  text-transform: uppercase;
+}
+
+header nav ul li {
+  display: flex;
+  list-style-type: none;
+  font-size: .9em;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: .5em;
+  font-family: 'Jura', cursive;
+}
+
+.header-content figure {
+  display: flex;
+  width: 100%;
+  padding-left: 1.9em;
+}
+
+.header-content img {
+  width: 50%;
+  display: flex;
+  min-height: 1.28em;
+  min-width: 8em;
+}
+
+/* main styles */
+
+main {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: 3.2em;
+}
+
+main #headline {
+  width: 75%;
+  margin: 0;
+}
+
+main h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'MuseoModerno', serif;
+  color: #fff;
+  width: 100%;
+  font-size: 3em;
+  line-height: 2.1;
+
+}
+
+main span {
+  color: #a31aad;
+}
+
+/*about styles*/
+#about {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  margin: 0;
+  flex-flow: row wrap;
+  padding-top: 5em;
+  padding-bottom: 3.2em;
+}
+
+#about #bio h3 {
+  width: 100%;
+  margin: 0;
+  font-family: 'MuseoModerno', serif;
+  font-weight: 300;
+  font-style: italic;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1.5em;
+  color: #a31aad;
+}
+
+#about #portrait {
+  display: flex;
+  width: 35%;
+}
+
+#about #portrait img {
+  width: 15em;
+  height: 12em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+#about figure {
+  width: 80%;
+  width: 12.7em;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#about #bio {
+  display: flex;
+  width: 40%;
+  flex-flow: row wrap;
+}
+
+#about #bio p {
+  font-family: 'Jura', serif;
+  display: flex;
+  font-size: 24px;
+  color: #a31aad;
+  font-weight: 400;
+  line-height: 1.75;
+  padding: 0;
+}
+
+
+
+/*style*/
+
+#style {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 3.5em;
+}
+
+#style h2 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  width: 100%;
+  flex-flow: row nowrap;
+  color: #a31aad;
+  font-family: 'Jura', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2em;
+  margin-left: 1.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+#style article h4 {
+  font-size: .8em;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  margin: 0em;
+  justify-content: center;
+  text-align: left;
+  padding-top: 1em;
+}
+
+#style img {
+  width: 100%;
+  height: 8em;
+  width: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+
+#style #funky-good-time {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+#style #pink-white {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+#style #new-take-old-sound {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+#style article {
+  margin: .5em;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#playlists {
+  display: flex;
+  width: 90%;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+/*availability styles*/
+#availability {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 1em 0 3.5em 0;
+}
+
+#availability h2 {
+  width: 90%;
+  justify-content: left;
+  align-items: center;
+  font-family: 'MuseoModerno', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.2em;
+  color: #a31aad;
+  margin-left: 1.3em;
+  padding-bottom: 1.2em;
+}
+
+#availability article p {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  height: 75%;
+  justify-content: center;
+  text-align: center;
+  padding: .3em;
+  font-size: .93em;
+}
+
+#availability article {
+  font-size: .75em;
+  width: 20%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: #fff;
+  padding-bottom: 1em;
+  margin: .5em .9em .5em .9em;
+}
+
+#availability article img {
+  width: 6em;
+  height: 6em;
+}
+
+
+#availability h4 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'MuseoModerno', serif;
+  align-items: center;
+  height: 20%;
+  font-size: 1em;
+  color: #a31aad;
+  padding: .3em 0 0 0;
+}
+
+#availability #weddings {
+  display: flex;
+}
+
+#availability #parties {
+  display: flex;
+}
+
+#availability #clubs {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*.professional-skills {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+} */
+
+#contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0em;
+}
+
+#contact h4 {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  font-family: 'MuseoModerno', serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: .3em;
+  font-size: 1.5em;
+  color: #a31aad;
+}
+
+#contact h5 {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 1.6em;
+  color: #a31aad;
+}
+
+.contact-info {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 50%;
+}
+
+.contact-info p {
+  color: #fff;
+  line-height: 2;
+  font-family: 'MuseoModerno', serif;
+}
+
+.contact-info h3 {
+  margin: 0;
+  padding-top: 1em;
+  color: #fff;
+  font-family: 'Jura', cursive;
+  font-size: .8em;
+}
+
+.contact-info p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#social ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 50%;
+}
+
+#social ul li {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#social ul li img {
+  width: 2em;
+  height: 2em;
+  padding-left: .28em;
+}
+
+#social .contact-info {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+#social .contact-info h3 {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: .7em;
+  color: #a31aad;
+}
+
+/*tablet styles*/
+
+@media only screen and (max-width:1199px) {
+
+
+  /*header*/
+
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-content {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .header-content figure {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .header-content nav {
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    padding-left: .5em;
+    padding-right: 0px;
+    align-items: center;
+  }
+
+  header nav ul li {
+    padding: .5em;
+  }
+
+
+  /*main*/
+
+  main {
+    justify-content: center;
+    align-items: center;
+  }
+
+  main figure {
+    display: flex;
+    align-items: center;
+
+  }
+
+  main h1 {
+    font-size: 1.5em;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  /*about*/
+  #about {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+  #about #bio {
+    line-height: 1.3em;
+    font-size: .9em;
+    width: 80%;
+    align-items: center;
+  }
+
+
+
+  #about #portrait img {
+    width: 100%;
+  }
+
+  #about #portrait {
+    width: 50%;
+    margin-top: 0px;
+  }
+
+  /*style*/
+
+  #style {
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  #style img {
+    height: 12em;
+    width: 12em;
+    margin-bottom: 1em;
+  }
+
+  #style #funky-good-time img {
+    height: 13em;
+    padding-left: 0em;
+    margin-bottom: 1em;
+  }
+
+  #style #funky-good-time {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 4em;
+  }
+
+  #style article p {
+    font-size: .8em;
+    height: 80%;
+    margin-bottom: 2em;
+  }
+
+  #style #pink-white {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 4em;
+  }
+
+
+  #style #new-take-old-sound {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+  /*availability*/
+  #availability {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  #availability h2 {
+    font-size: 2em;
+
+  }
+
+  #availability article {
+    width: 80%;
+    margin: 1em;
+  }
+
+  #availability h4 {
+    font-size: 1.3em;
+    padding: 1em;
+  }
+
+  #availability #parties h4 {
+    font-size: 1.5em;
+    margin: .2em .5em .4em .65em;
+    padding: 0.01em;
+  }
+
+  #availability #weddings img {
+    padding-left: .3em;
+  }
+
+  #availability article p {
+    align-items: center;
+  }
+
+
+
+  #contact {
+    padding: 0 0 1em 0;
+  }
+
+  .contact-info p {
+    color: #fff;
+    line-height: 2;
+    font-family: 'MuseoModerno', serif;
+    width: 80%;
+    font-size: .8em;
+  }
+
+}
+
+@media only screen and (max-width:768px) {
+
+  body {
+    width: 100%
+  }
+
+  /*header*/
+  .header-content {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .header-content nav {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5em;
+    padding-right: 0px;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
+  header nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: .7em;
+    margin: 0;
+    padding-top: 0;
+    flex-flow: row wrap;
+  }
+
+  .header-content figure {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+
+  .header-content nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-content nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    padding: 0;
+    margin: 1em;
+    margin-bottom: 4em;
+    justify-content: center;
+  }
+
+
+  /*main*/
+  main {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding-top: .8em;
+    padding-bottom: 1em;
+  }
+
+  main h1 {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+    font-family: 'MuseoModerno', serif;
+    color: #fff;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.8;
+  }
+
+  /*about*/
+  #about #bio p {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  /*style*/
+  #style h2 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    width: 60%;
+  }
+
+  #style #funky-good-time img {
+    height: 8em;
+    width: 8em;
+    padding-left: 0em;
+  }
+
+  #style img {
+    height: 8em;
+    width: 8em;
+    padding-left: 0em;
+  }
+
+  /*availability*/
+  #availability h2 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    width: 60%;
+    align-items: center;
+    margin-left: 2em;
+  }
+
+  /*contact*/
+  .contact-info {
+    display: flex;
+    padding: 0;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 50%;
+    font-size: .8em;
+    margin: 0;
+  }
+
+  .contact-info p {
+    margin: 0;
+  }
+
+  #social ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    width: 50%;
+    padding: 0px;
+  }
+
+  #social {
+    justify-content: center;
+  }
+
+  #social ul li img {
+    width: 1em;
+    height: 1em;
+    padding-left: .28em;
+  }
+
+  #social ul li {
+    justify-content: space-around
+  }
+}
