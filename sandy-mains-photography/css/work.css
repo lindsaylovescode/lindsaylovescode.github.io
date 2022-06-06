@@ -40,7 +40,6 @@ header {
     display: flex;
     width: 100%;
     margin: 0;
-    justify-content: flex-start;
 }
 
 .header-content #logo {
@@ -87,7 +86,7 @@ header nav ul li {
 .header-content figure {
     display: flex;
     width: 100%;
-    padding-left: 1.9em;
+    justify-content: center;
 }
 
 .header-content img {
@@ -95,8 +94,6 @@ header nav ul li {
     display: flex;
     min-height: 1.28em;
     min-width: 8em;
-    display: flex;
-    align-content: center;
 }
 
 /* main styles */
