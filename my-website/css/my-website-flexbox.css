@@ -266,8 +266,8 @@ main span {
 
 #work img {
   width: 100%;
-  height: 10em;
-  width: 10em;
+  height: 8em;
+  width: 8em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,21 +281,29 @@ main span {
 
 #work #hotel {
   display: flex;
-  width: 29%;
+  width: 20%;
   justify-content: center;
 }
 
 #work #guess-the-word {
   display: flex;
-  width: 29%;
+  width: 20%;
   justify-content: center;
 }
 
 #work #sticky-notes {
   display: flex;
-  width: 29%;
+  width: 20%;
   justify-content: center;
 }
+
+#work #sandy-website {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+
 
 /*skills styles*/
 #skills {
@@ -615,6 +623,13 @@ footer {
   }
 
   #work #guess-the-word {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 4em;
+  }
+
+  #work #sandy-website {
     display: flex;
     width: 80%;
     justify-content: center;
