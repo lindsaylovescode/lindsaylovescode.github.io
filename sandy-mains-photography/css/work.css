@@ -95,6 +95,8 @@ header nav ul li {
     display: flex;
     min-height: 1.28em;
     min-width: 8em;
+    display: flex;
+    align-content: center;
 }
 
 /* main styles */
